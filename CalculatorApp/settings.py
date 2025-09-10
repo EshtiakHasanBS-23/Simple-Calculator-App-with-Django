@@ -57,7 +57,7 @@ ROOT_URLCONF = 'CalculatorApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates/votingapp')], 
+        'DIRS': [os.path.join(BASE_DIR,'templates/calculatorapp')], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
